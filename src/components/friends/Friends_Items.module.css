@@ -1,0 +1,36 @@
+.friendItem {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #fff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+
+.friendItem:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.friendName {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.status {
+  font-size: 34px;
+  line-height: 0;
+}
+
+.true {
+  color: green;
+}
+
+.false {
+  color: red;
+}
+
